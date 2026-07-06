@@ -1,0 +1,26 @@
+
+---
+
+## 📄 **File 2: `package.json`**
+
+```json
+{
+  "name": "arc-starter-kit",
+  "version": "1.0.0",
+  "description": "Ready-to-run code examples for building on Arc blockchain",
+  "main": "src/index.js",
+  "scripts": {
+    "balance": "node src/examples/balance-check.js",
+    "pay": "node src/examples/payment-flow.js",
+    "agent": "node src/examples/agent-micropayment.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@circle-fin/circle-sdk": "^latest",
+    "arcpay": "^0.2.2",
+    "dotenv": "^16.0.0"
+  },
+  "keywords": ["arc", "circle", "web3", "usdc", "blockchain"],
+  "author": "YOUR_NAME",
+  "license": "MIT"
+}
